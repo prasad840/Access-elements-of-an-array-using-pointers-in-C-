@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()    //calling main function   
+{
+int i, j, *p, are[5]; //declaring variables
+
+for(i=0;i<5;i++){    //using for loop to input values into the declared array
+cout<<Enter the values : " <<endl;
+cin>>arr[i];
+}
+
+p=arr;  //assigning p variable the array for using pointers
+cout<<"You entered : "<<*p<<endl;
+
+for(j=0;j<5;j++){   // using for loop to display array using pointers
+cout<<*p<<endl;
+p++;
+}
+
+return 0;   //terminating main function
+}
